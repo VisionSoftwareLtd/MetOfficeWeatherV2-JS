@@ -19,5 +19,6 @@
   "dependencies": {
     "express": "^4.16.1",
     "request": "^2.83.0"
-  }
+  },
+  "type": "module"
 }

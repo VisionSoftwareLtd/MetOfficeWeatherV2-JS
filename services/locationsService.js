@@ -1,4 +1,4 @@
-import Location from '../models/location';
+import Location from '../models/location.js';
 
 export default class LocationsService {
     constructor(postcodesApiClient) {

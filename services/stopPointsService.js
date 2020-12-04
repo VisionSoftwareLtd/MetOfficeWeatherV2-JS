@@ -1,4 +1,4 @@
-import StopPoint from '../models/stopPoint';
+import StopPoint from '../models/stopPoint.js';
 
 export default class StopPointsService {
     constructor(tflApiClient) {

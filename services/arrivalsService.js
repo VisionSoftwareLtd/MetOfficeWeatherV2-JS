@@ -1,4 +1,4 @@
-import ArrivalPrediction from '../models/arrivalPrediction';
+import ArrivalPrediction from '../models/arrivalPrediction.js';
 
 export default class ArrivalsService {
     constructor(tflApiClient) {

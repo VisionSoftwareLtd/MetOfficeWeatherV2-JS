@@ -1,4 +1,4 @@
-import DepartureBoard from '../models/departureBoard';
+import DepartureBoard from '../models/departureBoard.js';
 
 export default class DepartureBoardsService {
     constructor(arrivalsService, locationsService, stopPointsService) {

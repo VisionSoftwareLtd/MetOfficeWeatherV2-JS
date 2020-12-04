@@ -1,4 +1,4 @@
-import BaseApiClient from './baseApiClient';
+import BaseApiClient from './baseApiClient.js';
 
 const BASE_URL = 'https://api.postcodes.io';
 

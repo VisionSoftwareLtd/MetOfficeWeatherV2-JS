@@ -1,12 +1,12 @@
 import express from 'express';
 import path from 'path';
 
-import TflApiClient from './apiClients/tflApiClient';
-import PostcodesApiClient from './apiClients/postcodesApiClient';
-import ArrivalsService from './services/arrivalsService';
-import LocationsService from './services/locationsService';
-import StopPointsService from './services/stopPointsService';
-import DepartureBoardsService from './services/departureBoardsService';
+import TflApiClient from './apiClients/tflApiClient.js';
+import PostcodesApiClient from './apiClients/postcodesApiClient.js';
+import ArrivalsService from './services/arrivalsService.js';
+import LocationsService from './services/locationsService.js';
+import StopPointsService from './services/stopPointsService.js';
+import DepartureBoardsService from './services/departureBoardsService.js';
 
 const tflApiClient = new TflApiClient();
 const postcodesApiClient = new PostcodesApiClient();
